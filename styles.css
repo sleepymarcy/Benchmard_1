@@ -1,0 +1,124 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu-icon-logo {
+    width: 34px;
+    height: 34px;
+    fill: #fff;
+}
+
+.menu-container {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 1060px;
+    height: 56px;
+    padding-top: 4px;
+    margin: auto;
+}
+
+.menu-logo {
+    display: block;
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-right: 29px;
+    padding-top: 7px;
+    line-height: 32px;
+}
+
+
+.menu-main {
+    float: left;
+}
+
+.menu-item {
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.menu-tray {
+    float: right;
+    padding-left: 100px;
+}
+
+.menu-tray .menu-link {
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.menu-item-count {
+    box-sizing: border-box;
+    position: absolute;
+    top: 18px;
+    margin-top: 0;
+    margin-left: -4px;
+    height: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    line-height: 14px;
+    font-size: 11px;
+    text-align: left;
+    opacity: .6;
+}
+
+.menu-item-count-notifications {
+    left: 39px;
+}
+
+.menu-item .has-submenu {
+    position: relative;
+}
+
+.menu-main .menu-link {
+    padding-left: 17px;
+    padding-right: 29px;
+}
+
+.menu-link {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ccc;
+    letter-spacing: .25px;
+    text-decoration: none;
+}
+
+.menu::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background: url(gog-assets/nav_bg.jpg) repeat-x top center rgba(26,26,26,0.9);
+    z-index: -1;
+}
+
+.menu {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 60;
+    height: 56px;
+    width: 100%;
+    padding: 0 2%;
+    color: #ccc;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.nav {
+    display: block;
+}
