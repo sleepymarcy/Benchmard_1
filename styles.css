@@ -210,6 +210,7 @@ a:hover {
 }
 .section-title-w-long-border {
   box-shadow: 0 -1px 0 0 rgba(64, 64, 64, 0.4), 0 1px 0 0 rgba(64, 64, 64, 0.4);
+  
 }
 
 .center {
@@ -218,3 +219,4 @@ a:hover {
   margin-right: auto;
   width: 100%;
 }
+
